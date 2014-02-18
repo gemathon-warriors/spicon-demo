@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/gemathon-warriors/spicon.git
-  revision: 3c7bc9241b463d21ac144908bdbd9e6528cddb2d
-  specs:
-    spicon (0.0.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -94,6 +88,8 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    spicon (0.0.3)
+      rails (> 2.3, < 5)
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -131,7 +127,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 4.0.0)
   sdoc
-  spicon!
+  spicon (~> 0.0.3)
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
