@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/gouravtiwari/rubyapps/gemathon/spicon
+GIT
+  remote: https://github.com/gemathon-warriors/spicon.git
+  revision: 3c7bc9241b463d21ac144908bdbd9e6528cddb2d
   specs:
     spicon (0.0.2)
 

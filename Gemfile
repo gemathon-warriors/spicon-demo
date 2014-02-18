@@ -34,8 +34,7 @@ end
 
 gem 'haml'
 
-gem 'spicon', path: '/Users/gouravtiwari/rubyapps/gemathon/spicon'
-# gem 'spicon', git: 'https://github.com/gemathon-warriors/spicon.git'
+gem 'spicon', git: 'https://github.com/gemathon-warriors/spicon.git'
 
 group :production do
   gem 'pg', '~>0.16.0'
