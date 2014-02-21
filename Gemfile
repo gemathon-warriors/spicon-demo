@@ -14,7 +14,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'font-awesome-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
@@ -31,7 +31,7 @@ end
 
 gem 'haml'
 
-gem 'spicon', '~>0.0.3'
+gem 'spicon', '~> 0.0.3'
 
 group :production do
   gem 'pg', '~>0.16.0'

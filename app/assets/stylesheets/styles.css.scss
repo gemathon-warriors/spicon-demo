@@ -1,0 +1,151 @@
+#image1{
+  padding: 50px;
+}
+
+.land_page {
+	background-color: #2A3642; /* Bluish Grey */
+  //background-color: #E06560; /* Light pink */
+  //background-color: #D7423C; /* Orangish */
+  //background-color: #302922; /* Brown */
+}
+
+/* Menu Icons Styling */
+
+#socialize {
+  padding-top: 5px;
+  /* Wrapper */
+  .icon-button {
+    background-color: #2A3642;
+    border-radius: 12rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.0rem;
+    height: 12rem;
+    width: 12rem;
+    line-height: 12rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+  }
+
+  /* Circle */
+  .icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+    width: 0;
+  }
+
+  .icon-button:hover span {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 12rem;
+    margin: -6rem;
+  }
+
+  .timezonify {
+    margin-left: 150px;
+  }
+
+  .timezonify span {
+    background-color: #4099ff;
+  }
+
+  .tareek {
+    margin-right: 150px;
+    float: right;
+  }
+
+  .tareek span {
+    background-color: #3B5998;
+  }
+
+  .bugs {
+    margin-right: 150px;
+    float: right;
+  }
+
+  .bugs span {
+    background-color: red;
+  }
+
+  .contineo  {
+    margin-left: 150px;
+  }
+
+  .contineo span {
+    background-color: #db5a3c;
+  }
+
+  /* Icons */
+  .icon-button i {
+    background: none;
+    color: white;
+    height: 12rem;
+    width: 12rem;
+    left: 0;
+    line-height: 12rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+    z-index: 10;
+  }
+
+  .icon-button .icon-timezonify {
+    color: #4099ff;
+  }
+
+  .icon-button .icon-tareek {
+    color: #3B5998;
+  }
+
+  .icon-button .icon-contineo {
+    color: #db5a3c;
+  }
+
+  .icon-button:hover .icon-timezonify,
+  .icon-button:hover .icon-tareek,
+  .icon-button:hover .icon-contineo {
+    color: white;
+  }
+  .tooltip-inner {
+    height: 30px;
+    width: 200px;
+    padding-top: 6px;
+  }
+}
+
+.top_icons {
+  height: 200px;
+  margin:30px 30px 30px 30px;
+  padding:25px;
+}
+
+.bottom_icons {
+  height: 200px;
+  margin:30px 30px 30px 30px;
+  padding:25px;
+}
+
+.gems_img {
+  height: 200px;
+  img {
+    background-color: #2A3642;
+    margin-left: 550px;
+  }
+}
