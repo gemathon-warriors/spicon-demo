@@ -5,6 +5,7 @@
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
     %title= content_for?(:title) ? yield(:title) : "Warriors Arena"
     = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
     = csrf_meta_tags
   %body.land_page
     .menu_icons
@@ -13,19 +14,19 @@
     #socialize
       %ul.top_icons
         %li
-          %a.icon-button.twitter{href: "http://twitter.com"}
+          %a.icon-button.timezonify{href: "#"}
             %i.fa.fa-clock-o.fa-3x.spicon-2s-6-normal
             %span
-          %a.icon-button.facebook{href: "http://facebook.com"}
+          %a.icon-button.tareek{href: "#"}
             %i.fa.fa-calendar.fa-3x.spicon-2s-6-reverse
             %span
       .gems_img
-        = image_tag "gems_edited.png"
+        = image_tag "gemathon_warriors_logo_200px.png", class: "central_img"
       %ul.bottom_icons
         %li
-          %a.icon-button.google-plus{href: "http://plus.google.com"}
+          %a.icon-button.contineo{href: "#"}
             %i.fa.fa-sitemap.fa-3x.spicon-2s-6-alternate
             %span
-          %a.icon-button.github{href: "https://github.com/slade1/easevents"}
-            %i.fa.fa-github.fa-3x.spicon-2s-6-alternate_reverse
+          %a.icon-button.bugs{href: "https://github.com/gemathon-warriors"}
+            %i.fa.fa-bug.fa-3x.spicon-2s-6-alternate_reverse
             %span
