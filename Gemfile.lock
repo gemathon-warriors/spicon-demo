@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/gemathon-warriors/spicon.git
-  revision: 3c7bc9241b463d21ac144908bdbd9e6528cddb2d
-  specs:
-    spicon (0.0.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -43,6 +37,8 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    font-awesome-rails (4.0.3.1)
+      railties (>= 3.2, < 5.0)
     haml (4.0.4)
       tilt
     hike (1.2.3)
@@ -60,7 +56,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.4)
-    pg (0.16.0)
+    pg (0.17.0)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -94,6 +90,8 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    spicon (0.1.0)
+      rails (> 2.3, < 5)
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -123,15 +121,16 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  font-awesome-rails
   haml
   jbuilder (~> 1.2)
   jquery-rails
-  pg (~> 0.16.0)
+  pg
   rails (= 4.0.2)
   rails_12factor
   sass-rails (~> 4.0.0)
   sdoc
-  spicon!
+  spicon (~> 0.1.0)
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
