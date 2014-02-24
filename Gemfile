@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'font-awesome-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'font-awesome-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
@@ -57,3 +57,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+ruby "2.0.0"
